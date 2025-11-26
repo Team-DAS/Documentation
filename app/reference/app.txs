@@ -1,0 +1,12 @@
+import { ApiReferenceReact } from '@scalar/api-reference-react'
+// @ts-ignore: import of stylesheet for side-effects; add a '*.css' declaration file if you prefer
+import '@scalar/api-reference-react/style.css'
+export default function References() {
+  return (
+    <ApiReferenceReact
+      configuration={{
+        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+      }}
+    />
+  )
+}
