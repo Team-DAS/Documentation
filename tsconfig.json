@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "app/reference/page.tsx"  ],
+, "app/identity-cell/page.tsx"  ],
   "exclude": ["node_modules"]
 }
