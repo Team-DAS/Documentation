@@ -16,18 +16,17 @@ export default function LifecycleCellArchitecture() {
           
           {/* Card para ir a documentación API */}
           <div className="flex justify-center mb-6">
-            <a
-              href="/Documentation/lifecycle-cell"
+            <Link
+              href="/lifecycle-cell"
               target="_blank"
-              rel="noopener noreferrer"
               className="bg-lime-700/70 backdrop-blur-xl hover:bg-lime-800/80 text-white px-8 py-4 rounded-2xl font-semibold transition-all hover:scale-105 shadow-xl flex items-center gap-3 border border-white/30"
             >
               <span className="text-2xl">📚</span>
               <div>
                 <div className="font-bold text-lg">API Documentation</div>
-                <div className="text-sm text-lime-100">Ver documentación REST & GraphQL</div>
+                <div className="text-sm text-lime-100">Ver documentación de API</div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
 

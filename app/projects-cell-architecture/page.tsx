@@ -16,10 +16,9 @@ export default function ProjectsCellArchitecture() {
           
           {/* Card para ir a documentación API */}
           <div className="flex justify-center mb-6">
-            <a
-              href="/Documentation/projects-cell"
+            <Link
+              href="/projects-cell"
               target="_blank"
-              rel="noopener noreferrer"
               className="bg-green-700/70 backdrop-blur-xl hover:bg-green-800/80 text-white px-8 py-4 rounded-2xl font-semibold transition-all hover:scale-105 shadow-xl flex items-center gap-3 border border-white/30"
             >
               <span className="text-2xl">📚</span>
@@ -27,7 +26,7 @@ export default function ProjectsCellArchitecture() {
                 <div className="font-bold text-lg">API Documentation</div>
                 <div className="text-sm text-green-100">Ver documentación REST & GraphQL</div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
 

@@ -16,10 +16,9 @@ export default function ProfileCellArchitecture() {
           
           {/* Card para ir a documentación API */}
           <div className="flex justify-center mb-6">
-            <a
-              href="/Documentation/profile-cell"
+            <Link
+              href="/profile-cell"
               target="_blank"
-              rel="noopener noreferrer"
               className="bg-teal-800/70 backdrop-blur-xl hover:bg-teal-900/80 text-white px-8 py-4 rounded-2xl font-semibold transition-all hover:scale-105 shadow-xl flex items-center gap-3 border border-white/30"
             >
               <span className="text-2xl">📚</span>
@@ -27,7 +26,7 @@ export default function ProfileCellArchitecture() {
                 <div className="font-bold text-lg">API Documentation</div>
                 <div className="text-sm text-teal-100">Ver documentación REST & GraphQL</div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
 

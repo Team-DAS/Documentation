@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
+import despliegue from '../assets/Despliegue.webp'
 
 export default function GeneralArchitecture() {
   return (
@@ -63,7 +64,7 @@ export default function GeneralArchitecture() {
           </h2>
           <div className="flex justify-center">
             <Image 
-              src="/Despliegue.webp" 
+              src={despliegue} 
               alt="Diagrama de Despliegue en GCP Kubernetes" 
               width={1000}
               height={800}
