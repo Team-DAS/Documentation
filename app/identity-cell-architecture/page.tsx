@@ -17,7 +17,7 @@ export default function IdentityCellArchitecture() {
           {/* Card para ir a documentación API */}
           <div className="flex justify-center mb-6">
             <a
-              href="/identity-cell"
+              href="/Documentation/identity-cell"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-emerald-800/70 backdrop-blur-xl hover:bg-emerald-900/80 text-white px-8 py-4 rounded-2xl font-semibold transition-all hover:scale-105 shadow-xl flex items-center gap-3 border border-white/30"

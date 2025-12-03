@@ -103,7 +103,7 @@ export default function StackPage() {
               <a href="https://argo-cd.readthedocs.io/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 hover:scale-110 transition-transform">
                 <div className="w-20 h-20 flex items-center justify-center">
                     <Image
-                        src="/argocd.svg"
+                        src="./argocd.svg"
                         alt="ArgoCD Logo"
                         width={80}
                         height={80}

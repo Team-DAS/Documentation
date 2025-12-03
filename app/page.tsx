@@ -15,7 +15,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-br from-emerald-50/30 to-teal-50/30 backdrop-blur-sm"></div>
             <div className="relative z-10 flex flex-col items-center">
               <Image 
-                src="/logo.png" 
+                src="./logo.png" 
                 alt="UdeA Jobs Logo" 
                 width={300} 
                 height={300}

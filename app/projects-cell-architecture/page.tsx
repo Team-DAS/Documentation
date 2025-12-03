@@ -17,7 +17,7 @@ export default function ProjectsCellArchitecture() {
           {/* Card para ir a documentación API */}
           <div className="flex justify-center mb-6">
             <a
-              href="/projects-cell"
+              href="/Documentation/projects-cell"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-700/70 backdrop-blur-xl hover:bg-green-800/80 text-white px-8 py-4 rounded-2xl font-semibold transition-all hover:scale-105 shadow-xl flex items-center gap-3 border border-white/30"
