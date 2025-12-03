@@ -63,7 +63,7 @@ export default function GeneralArchitecture() {
           </h2>
           <div className="flex justify-center">
             <Image 
-              src="./Despliegue.webp" 
+              src="/Despliegue.webp" 
               alt="Diagrama de Despliegue en GCP Kubernetes" 
               width={1000}
               height={800}
