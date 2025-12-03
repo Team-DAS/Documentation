@@ -12,7 +12,8 @@
     "@scalar/api-reference-react": "^0.8.6",
     "next": "16.0.4",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "tech-stack-icons": "^3.3.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
